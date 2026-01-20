@@ -212,6 +212,13 @@ DDC CWICR is not just a database — it's **ready-to-use fuel for AI-powered app
 <sub>AI platforms</sub>
 </td>
 </tr>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+</tr>
 </table>
 
 ---

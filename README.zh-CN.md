@@ -212,6 +212,13 @@ DDC CWICR不仅仅是一个数据库 — 它是**为AI驱动应用程序准备�
 <sub>AI平台</sub>
 </td>
 </tr>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+</tr>
 </table>
 
 ---
