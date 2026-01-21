@@ -191,41 +191,39 @@ DDC CWICR não é apenas um banco de dados — é **combustível pronto para uso
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/><br/>
 <b>Claude Code</b><br/>
 <sub>CLI de assistente de codificação IA</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/><br/>
 <b>n8n</b><br/>
 <sub>Automação de workflows</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Dify-1677FF?style=for-the-badge&logo=openai&logoColor=white" alt="Dify"/><br/>
 <b>Dify</b><br/>
 <sub>Desenvolvimento de aplicações LLM</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Sim_AI-6366F1?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sim AI"/><br/>
 <b>Sim AI e Outros</b><br/>
 <sub>Plataformas de IA</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
-<b>Google Antigravity</b><br/>
-<sub>Google Antigravity</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Claude Code — Assistente de Codificação IA
+### 💻 Claude Code & Google Antigravity — Assistentes de Codificação IA
 
-A maneira mais rápida de trabalhar com DDC CWICR. Basta abrir o repositório no Claude Code e fazer perguntas em linguagem natural.
+A maneira mais rápida de trabalhar com DDC CWICR. Basta abrir o repositório no Claude Code ou Google Antigravity e fazer perguntas em linguagem natural.
 
 **Primeiros Passos:**
 ```bash

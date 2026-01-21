@@ -191,41 +191,39 @@ DDC CWICR ist nicht nur eine Datenbank — es ist **gebrauchsfertiger Treibstoff
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/><br/>
 <b>Claude Code</b><br/>
 <sub>KI-Codierassistent CLI</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/><br/>
 <b>n8n</b><br/>
 <sub>Workflow-Automatisierung</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Dify-1677FF?style=for-the-badge&logo=openai&logoColor=white" alt="Dify"/><br/>
 <b>Dify</b><br/>
 <sub>LLM-App-Entwicklung</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Sim_AI-6366F1?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sim AI"/><br/>
 <b>Sim AI & Andere</b><br/>
 <sub>KI-Plattformen</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
-<b>Google Antigravity</b><br/>
-<sub>Google Antigravity</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Claude Code — KI-Codierassistent
+### 💻 Claude Code & Google Antigravity — KI-Codierassistenten
 
-Der schnellste Weg, mit DDC CWICR zu arbeiten. Öffnen Sie einfach das Repository in Claude Code und stellen Sie Fragen in natürlicher Sprache.
+Der schnellste Weg, mit DDC CWICR zu arbeiten. Öffnen Sie einfach das Repository in Claude Code oder Google Antigravity und stellen Sie Fragen in natürlicher Sprache.
 
 **Erste Schritte:**
 ```bash

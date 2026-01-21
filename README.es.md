@@ -191,41 +191,39 @@ DDC CWICR no es solo una base de datos — es **combustible listo para usar en a
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/><br/>
 <b>Claude Code</b><br/>
 <sub>CLI de asistente de codificación IA</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/><br/>
 <b>n8n</b><br/>
 <sub>Automatización de flujos de trabajo</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Dify-1677FF?style=for-the-badge&logo=openai&logoColor=white" alt="Dify"/><br/>
 <b>Dify</b><br/>
 <sub>Desarrollo de apps LLM</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Sim_AI-6366F1?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sim AI"/><br/>
 <b>Sim AI y Otros</b><br/>
 <sub>Plataformas de IA</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
-<b>Google Antigravity</b><br/>
-<sub>Google Antigravity</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Claude Code — Asistente de Codificación IA
+### 💻 Claude Code & Google Antigravity — Asistentes de Codificación IA
 
-La forma más rápida de trabajar con DDC CWICR. Solo abre el repositorio en Claude Code y haz preguntas en lenguaje natural.
+La forma más rápida de trabajar con DDC CWICR. Solo abre el repositorio en Claude Code o Google Antigravity y haz preguntas en lenguaje natural.
 
 **Comenzando:**
 ```bash

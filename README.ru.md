@@ -191,41 +191,39 @@ DDC CWICR — это не просто база данных, это **гото�
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/><br/>
 <b>Claude Code</b><br/>
 <sub>ИИ-ассистент программиста CLI</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/><br/>
 <b>n8n</b><br/>
 <sub>Автоматизация воркфлоу</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Dify-1677FF?style=for-the-badge&logo=openai&logoColor=white" alt="Dify"/><br/>
 <b>Dify</b><br/>
 <sub>Разработка LLM-приложений</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Sim_AI-6366F1?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sim AI"/><br/>
 <b>Sim AI и другие</b><br/>
 <sub>ИИ-платформы</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
-<b>Google Antigravity</b><br/>
-<sub>Google Antigravity</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Claude Code — ИИ-ассистент программиста
+### 💻 Claude Code & Google Antigravity — ИИ-ассистенты программиста
 
-Самый быстрый способ работы с DDC CWICR. Просто откройте репозиторий в Claude Code и задавайте вопросы на естественном языке.
+Самый быстрый способ работы с DDC CWICR. Просто откройте репозиторий в Claude Code или Google Antigravity и задавайте вопросы на естественном языке.
 
 **Начало работы:**
 ```bash

@@ -191,41 +191,39 @@ DDC CWICR不仅仅是一个数据库 — 它是**为AI驱动应用程序准备�
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/><br/>
 <b>Claude Code</b><br/>
 <sub>AI编程助手CLI</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
+<b>Google Antigravity</b><br/>
+<sub>Google Antigravity</sub>
+</td>
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/><br/>
 <b>n8n</b><br/>
 <sub>工作流自动化</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Dify-1677FF?style=for-the-badge&logo=openai&logoColor=white" alt="Dify"/><br/>
 <b>Dify</b><br/>
 <sub>LLM应用开发</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="20%">
 <img src="https://img.shields.io/badge/Sim_AI-6366F1?style=for-the-badge&logo=simpleicons&logoColor=white" alt="Sim AI"/><br/>
 <b>Sim AI 等</b><br/>
 <sub>AI平台</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"/><br/>
-<b>Google Antigravity</b><br/>
-<sub>Google Antigravity</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Claude Code — AI 编程助手
+### 💻 Claude Code & Google Antigravity — AI 编程助手
 
-使用DDC CWICR最快捷的方式。只需在Claude Code中打开仓库，用自然语言提问。
+使用DDC CWICR最快捷的方式。只需在Claude Code或Google Antigravity中打开仓库，用自然语言提问。
 
 **快速开始：**
 ```bash
