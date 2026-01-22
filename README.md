@@ -220,6 +220,18 @@ DDC CWICR is not just a database — it's **ready-to-use fuel for AI-powered app
 </tr>
 </table>
 
+⭐ <b>If you want to see new updates and database versions and if you find our tools useful please give our repositories a star to see more similar applications for the construction industry.</b>
+Star DDC workflow on GitHub and be instantly notified of new releases.
+<p align="center">
+  <br>
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/OCE%20star%20GitHub.gif" width="100%"/>
+  <br></br>
+</p>
+
+
+
+
+
 ---
 
 ### 💻 Claude Code & Google Antigravity — AI Coding Assistants
@@ -562,14 +574,6 @@ Regional adaptations of this methodology operate under various national designat
 
 <p align="center">
   <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC%20CWICR%20SPREAD%20OF%20METHODOLOGY%20FROM%20THE%201920s.jpg" alt="OpenConstructionEstimate" width="1000">
-</p>
-
-⭐ <b>If you want to see new updates and database versions and if you find our tools useful please give our repositories a star to see more similar applications for the construction industry.</b>
-Star DDC workflow on GitHub and be instantly notified of new releases.
-<p align="center">
-  <br>
-  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/OCE%20star%20GitHub.gif" width="100%"/>
-  <br></br>
 </p>
 
 
