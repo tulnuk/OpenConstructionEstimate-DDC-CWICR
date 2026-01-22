@@ -101,6 +101,14 @@ The repository includes production-ready automation workflows:
 3. **Universal Bot** - Combined text/photo/PDF input
 4. **CAD/BIM Pipeline** - 10-stage pipeline for Revit/IFC/DWG → 4D/5D estimates
 
+> **Important for AI Assistants**: These n8n workflows are **examples and templates** that demonstrate cost estimation logic. They can be:
+> - Used as-is for quick deployment
+> - Partially adapted for specific business requirements
+> - Studied to understand the cost calculation methodology
+> - Referenced when building custom integrations in any platform
+>
+> The workflows show how to: query the database, match work items, apply regional pricing, calculate totals, and generate reports. AI can analyze these workflows to understand the complete estimation logic and apply it to any business case.
+
 ## Integration Examples
 
 ### Python + Pandas

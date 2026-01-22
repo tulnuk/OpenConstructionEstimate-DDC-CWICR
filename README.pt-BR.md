@@ -1341,6 +1341,72 @@ Automatize o processamento de dados de construção com workflows n8n prontos pa
   <img src="https://img.shields.io/badge/Pipeline_cad2data-GitHub-181717?style=for-the-badge&logo=github" alt="Pipeline cad2data">
 </a>
 
+---
+
+## Instruções AI
+
+A pasta `AI_INSTRUCTIONS/` contém documentação completa para assistentes de programação AI trabalharem efetivamente com este banco de dados de custos de construção.
+
+### O que é DDC CWICR?
+
+**DDC CWICR** (Construction Work Items, Components & Resources) é um banco de dados de custos de construção de código aberto contendo:
+- **55.719 itens de trabalho** — operações de construção detalhadas com decomposição completa de custos
+- **27.672 recursos** — materiais, mão de obra e equipamentos com preços regionais
+- **85 campos de dados** — esquema estruturado para cálculos precisos
+- **9 idiomas** — com preços específicos por região (EUR, USD, CAD, RUB, CNY, etc.)
+- **Embeddings pré-calculados** — vetores OpenAI de 3072 dimensões para busca semântica
+
+### Metodologia baseada em recursos
+
+O banco de dados usa uma **abordagem de cálculo baseada em recursos** que separa:
+- **Normas tecnológicas** (invariáveis) — horas de trabalho, quantidades de materiais, tempo de equipamentos
+- **Preços regionais** (variáveis) — taxas horárias, custos de materiais, preços de combustível
+
+```
+Custo real = Norma tecnológica × Preço regional
+```
+
+Isso permite estimativas precisas para diferentes regiões e períodos de tempo.
+
+### Arquivos de instruções AI
+
+| Arquivo | Propósito |
+|---------|-----------|
+| `INSTRUCTIONS.md` | Visão geral principal, início rápido, formatos |
+| `CLAUDE.md` | Padrões e exemplos para Claude Code |
+| `OPENCODE.md` | Instruções concisas para Opencode |
+| `ANTIGRAVITY.md` | Integração GCP (BigQuery, Vertex AI, Qdrant) |
+| `DATABASE_SCHEMA.md` | Referência completa do esquema de 85 campos |
+
+### n8n Workflows — Exemplos e Templates
+
+Os workflows n8n incluídos são **exemplos e templates** que demonstram a lógica de estimativa de custos. Eles podem ser:
+- ✅ Usados como estão para implantação rápida
+- ✅ Parcialmente adaptados para requisitos de negócio específicos
+- ✅ Estudados para entender a metodologia de cálculo
+- ✅ Usados como referência ao criar integrações em qualquer plataforma
+
+Os workflows demonstram: consultas ao banco de dados, correspondência de itens de trabalho, lógica de preços regionais e geração de relatórios. AI pode analisá-los para entender o processo completo de estimativa.
+
+### Por que isso é importante
+
+Assistentes AI podem ajudá-lo a:
+- Consultar o banco de dados usando linguagem natural
+- Encontrar itens de trabalho por busca semântica
+- Calcular custos com preços regionais
+- Gerar relatórios e exportar dados
+- Criar integrações com serviços de nuvem
+- Entender a metodologia de cálculo a partir dos exemplos de workflows
+
+### Início rápido com AI
+
+1. Abra o projeto em seu IDE com suporte a AI
+2. Pergunte: *"Mostre-me todos os itens de trabalho de concreto com seus custos"*
+3. O AI usará as instruções para consultar os dados corretamente
+
+**Livro**: Para detalhes de metodologia, veja [livro Data-Driven Construction](https://datadrivenconstruction.io/book)
+
+---
 
 ## Licença
 

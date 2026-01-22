@@ -408,6 +408,71 @@ Revit/IFC/DWG → CAD2DATA → XLSX/DAE → DDC CWICR → Kostenvoranschlag
 
 ---
 
+## AI-Anleitungen
+
+Der Ordner `AI_INSTRUCTIONS/` enthält umfassende Dokumentation für AI-Programmierassistenten zur effektiven Arbeit mit dieser Baukostendatenbank.
+
+### Was ist DDC CWICR?
+
+**DDC CWICR** (Construction Work Items, Components & Resources) ist eine Open-Source-Baukostendatenbank mit:
+- **55.719 Arbeitspositionen** — detaillierte Bauvorgänge mit vollständiger Kostenaufschlüsselung
+- **27.672 Ressourcen** — Materialien, Arbeit und Ausrüstung mit regionalen Preisen
+- **85 Datenfelder** — strukturiertes Schema für genaue Kostenberechnungen
+- **9 Sprachen** — mit regionsspezifischen Preisen (EUR, USD, CAD, RUB, CNY usw.)
+- **Vorberechnete Embeddings** — 3072-dimensionale OpenAI-Vektoren für semantische Suche
+
+### Ressourcenbasierte Methodik
+
+Die Datenbank verwendet einen **ressourcenbasierten Kalkulationsansatz**, der trennt:
+- **Technologienormen** (unveränderlich) — Arbeitsstunden, Materialmengen, Gerätezeit
+- **Regionale Preise** (variabel) — Stundensätze, Materialkosten, Kraftstoffpreise
+
+```
+Tatsächliche Kosten = Technologienorm × Regionaler Preis
+```
+
+Dies ermöglicht genaue Schätzungen für verschiedene Regionen und Zeiträume.
+
+### AI-Anleitungsdateien
+
+| Datei | Zweck |
+|-------|-------|
+| `INSTRUCTIONS.md` | Hauptübersicht, Schnellstart, Datenformate |
+| `CLAUDE.md` | Claude Code Muster und Beispiele |
+| `OPENCODE.md` | Kurzanleitungen für Opencode |
+| `ANTIGRAVITY.md` | GCP-Integration (BigQuery, Vertex AI, Qdrant) |
+| `DATABASE_SCHEMA.md` | Vollständiges 85-Felder-Schema |
+
+### n8n Workflows — Beispiele & Vorlagen
+
+Die enthaltenen n8n-Workflows sind **Beispiele und Vorlagen**, die die Kostenkalkulationslogik demonstrieren. Sie können:
+- ✅ Unverändert für schnelle Bereitstellung verwendet werden
+- ✅ Teilweise für spezifische Geschäftsanforderungen angepasst werden
+- ✅ Studiert werden, um die Kalkulationsmethodik zu verstehen
+- ✅ Als Referenz beim Erstellen eigener Integrationen auf jeder Plattform dienen
+
+Die Workflows zeigen: Datenbankabfragen, Positionsabgleich, regionale Preislogik und Berichtserstellung. AI kann diese analysieren, um den gesamten Kalkulationsprozess zu verstehen.
+
+### Warum das wichtig ist
+
+AI-Assistenten können Ihnen helfen:
+- Die Datenbank in natürlicher Sprache abfragen
+- Arbeiten durch semantische Suche finden
+- Kosten mit regionalen Preisen berechnen
+- Berichte generieren und Daten exportieren
+- Integrationen mit Cloud-Diensten erstellen
+- Kalkulationsmethodik aus Workflow-Beispielen verstehen
+
+### Schnellstart mit AI
+
+1. Öffnen Sie das Projekt in Ihrer AI-fähigen IDE
+2. Fragen Sie: *"Zeige mir alle Betonarbeiten mit ihren Kosten"*
+3. Die AI nutzt die Anleitungen für korrekte Datenabfragen
+
+**Buch**: Für Methodologie-Details siehe [Data-Driven Construction Buch](https://datadrivenconstruction.io/book)
+
+---
+
 ## Lizenz
 
 - **Datenbank**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Kostenlose kommerzielle Nutzung mit Namensnennung

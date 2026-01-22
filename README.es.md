@@ -408,6 +408,71 @@ Revit/IFC/DWG → CAD2DATA → XLSX/DAE → DDC CWICR → Presupuesto
 
 ---
 
+## Instrucciones AI
+
+La carpeta `AI_INSTRUCTIONS/` contiene documentación completa para asistentes de programación AI para trabajar eficazmente con esta base de datos de costos de construcción.
+
+### ¿Qué es DDC CWICR?
+
+**DDC CWICR** (Construction Work Items, Components & Resources) es una base de datos de costos de construcción de código abierto que contiene:
+- **55.719 partidas de obra** — operaciones de construcción detalladas con desglose completo de costos
+- **27.672 recursos** — materiales, mano de obra y equipos con precios regionales
+- **85 campos de datos** — esquema estructurado para cálculos precisos
+- **9 idiomas** — con precios específicos por región (EUR, USD, CAD, RUB, CNY, etc.)
+- **Embeddings precalculados** — vectores OpenAI de 3072 dimensiones para búsqueda semántica
+
+### Metodología basada en recursos
+
+La base de datos utiliza un **enfoque de cálculo basado en recursos** que separa:
+- **Normas tecnológicas** (invariables) — horas de trabajo, cantidades de materiales, tiempo de equipos
+- **Precios regionales** (variables) — tarifas por hora, costos de materiales, precios de combustible
+
+```
+Costo real = Norma tecnológica × Precio regional
+```
+
+Esto permite estimaciones precisas para diferentes regiones y períodos de tiempo.
+
+### Archivos de instrucciones AI
+
+| Archivo | Propósito |
+|---------|-----------|
+| `INSTRUCTIONS.md` | Resumen principal, inicio rápido, formatos |
+| `CLAUDE.md` | Patrones y ejemplos para Claude Code |
+| `OPENCODE.md` | Instrucciones concisas para Opencode |
+| `ANTIGRAVITY.md` | Integración GCP (BigQuery, Vertex AI, Qdrant) |
+| `DATABASE_SCHEMA.md` | Esquema completo de 85 campos |
+
+### n8n Workflows — Ejemplos y Plantillas
+
+Los workflows n8n incluidos son **ejemplos y plantillas** que demuestran la lógica de estimación de costos. Pueden ser:
+- ✅ Usados tal cual para despliegue rápido
+- ✅ Parcialmente adaptados a requisitos de negocio específicos
+- ✅ Estudiados para entender la metodología de cálculo
+- ✅ Usados como referencia al crear integraciones en cualquier plataforma
+
+Los workflows demuestran: consultas a base de datos, coincidencia de partidas, lógica de precios regionales y generación de informes. La AI puede analizarlos para entender el proceso completo de estimación.
+
+### Por qué es importante
+
+Los asistentes AI pueden ayudarte a:
+- Consultar la base de datos en lenguaje natural
+- Encontrar trabajos mediante búsqueda semántica
+- Calcular costos con precios regionales
+- Generar informes y exportar datos
+- Crear integraciones con servicios en la nube
+- Entender la metodología de cálculo desde los ejemplos de workflows
+
+### Inicio rápido con AI
+
+1. Abre el proyecto en tu IDE con soporte AI
+2. Pregunta: *"Muéstrame todos los trabajos de hormigón con sus costos"*
+3. El AI usará las instrucciones para consultar los datos correctamente
+
+**Libro**: Para detalles de metodología, ver [libro Data-Driven Construction](https://datadrivenconstruction.io/book)
+
+---
+
 ## Licencia
 
 - **Base de datos**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Uso comercial gratuito con atribucion

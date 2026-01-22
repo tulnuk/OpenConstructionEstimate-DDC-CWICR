@@ -152,6 +152,8 @@ The repository includes ready-to-use n8n workflows:
 | 3 | Universal Bot | Combined text/photo/PDF input |
 | 4 | CAD/BIM Pipeline | Revit/IFC/DWG → 4D/5D estimates |
 
+> **Note**: These n8n workflows are **examples and templates** demonstrating the cost estimation logic. They can be used fully or partially for any business case. Analyze these workflows to understand how cost calculations work: database queries, work item matching, pricing logic, and report generation. This understanding can be applied to build custom solutions on any platform.
+
 ## Example Prompts for Claude Code
 
 | Task | Prompt |

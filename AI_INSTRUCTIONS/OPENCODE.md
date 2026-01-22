@@ -99,6 +99,8 @@ for code, qty in quantities.items():
 3. **Universal Bot** - Multi-input
 4. **CAD/BIM Pipeline** - BIM → Cost
 
+> **Note**: These workflows are **examples and templates** for cost estimation logic. Use fully or partially for any business case. Study them to understand the calculation methodology.
+
 ## Links
 
 - Demo: [openconstructionestimate.com](https://openconstructionestimate.com)

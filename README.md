@@ -1341,6 +1341,72 @@ Automate construction data processing with ready-made CAD-BIM n8n workflows:
   <img src="https://img.shields.io/badge/cad2data_Pipeline-GitHub-181717?style=for-the-badge&logo=github" alt="cad2data Pipeline">
 </a>
 
+---
+
+## AI Instructions
+
+The `AI_INSTRUCTIONS/` folder contains comprehensive documentation for AI coding assistants to work effectively with this construction cost database.
+
+### What is DDC CWICR?
+
+**DDC CWICR** (Construction Work Items, Components & Resources) is an open-source construction cost database containing:
+- **55,719 work items** — detailed construction operations with full cost breakdowns
+- **27,672 resources** — materials, labor, and equipment with regional pricing
+- **85 data fields** — structured schema for accurate cost calculations
+- **9 languages** — with region-specific pricing (EUR, USD, CAD, RUB, CNY, etc.)
+- **Pre-computed embeddings** — 3072-dimensional OpenAI vectors for semantic search
+
+### Resource-Based Methodology
+
+The database uses a **resource-based costing approach** that separates:
+- **Technology norms** (unchanging) — labor hours, material quantities, equipment time
+- **Regional prices** (volatile) — hourly rates, material costs, fuel prices
+
+```
+Actual Cost = Technology Norm × Regional Price
+```
+
+This allows accurate estimation across different regions and time periods.
+
+### AI Instructions Files
+
+| File | Purpose |
+|------|---------|
+| `INSTRUCTIONS.md` | Main overview, quick start, data formats |
+| `CLAUDE.md` | Claude Code specific patterns and examples |
+| `OPENCODE.md` | Concise instructions for Opencode |
+| `ANTIGRAVITY.md` | GCP integration (BigQuery, Vertex AI, Qdrant) |
+| `DATABASE_SCHEMA.md` | Complete 85-field schema reference |
+
+### n8n Workflows — Examples & Templates
+
+The included n8n workflows are **examples and templates** demonstrating cost estimation logic. They can be:
+- ✅ Used as-is for quick deployment
+- ✅ Partially adapted for specific business requirements
+- ✅ Studied to understand the cost calculation methodology
+- ✅ Referenced when building custom integrations on any platform
+
+The workflows demonstrate: database queries, work item matching, regional pricing logic, and report generation. AI can analyze these to understand the complete estimation process.
+
+### Why This Matters
+
+AI assistants can help you:
+- Query the database using natural language
+- Find work items by semantic search
+- Calculate costs with regional pricing
+- Generate reports and export data
+- Build integrations with cloud services
+- Understand cost calculation methodology from workflow examples
+
+### Quick Start with AI
+
+1. Open the project in your AI-enabled IDE
+2. Ask: *"Show me all concrete work items with their costs"*
+3. The AI will use the instructions to query the data correctly
+
+**Book**: For methodology details, see [Data-Driven Construction Book](https://datadrivenconstruction.io/book)
+
+---
 
 ## License
 

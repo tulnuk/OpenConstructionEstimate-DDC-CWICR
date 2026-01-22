@@ -215,6 +215,8 @@ Production-ready automation templates:
 | 3 | Universal Bot | Multi-modal input |
 | 4 | CAD/BIM Pipeline | BIM → 4D/5D estimates |
 
+> **Note**: These workflows are **examples and templates** demonstrating cost estimation logic. They can be used fully or partially for any business case. Analyze them to understand the calculation methodology and apply it to custom GCP solutions.
+
 ## Resources
 
 - **Live Demo**: [openconstructionestimate.com](https://openconstructionestimate.com)
