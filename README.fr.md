@@ -188,6 +188,23 @@ DDC CWICR n'est pas qu'une base de données — c'est un **carburant prêt à l'
 | **55 000+ postes de travail** | Couverture complète pour toute tâche d'estimation de construction |
 | **Méthodologie basée sur les ressources** | Données transparentes que l'IA peut expliquer et décomposer |
 
+### 📋 Descriptions de Travaux Prêtes à l'Emploi pour Tout Système
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/A%20ready-made%20job%20description%20generator.jpg" alt="Générateur de descriptions de travaux prêtes à l'emploi" width="1000">
+</p>
+
+DDC CWICR fournit des **descriptions de travaux complètes et structurées** qui peuvent être affichées dans n'importe quel système ou format. Chaque poste de travail contient toutes les informations nécessaires aux différents intervenants du projet :
+
+| Intervenant | Ce qu'il obtient |
+|-------------|------------------|
+| 🏢 **Maître d'ouvrage / Investisseur** | Transparence totale des coûts, décomposition des ressources, justification des prix pour les décisions d'investissement |
+| 📊 **Métreur / Économiste** | Prix détaillés, heures de travail, quantités de matériaux, coûts d'équipement — prêt pour la génération de devis |
+| 👷 **Chef de chantier / Conducteur de travaux** | Composition des travaux, besoins en ressources, normes de travail pour la planification et l'exécution quotidienne |
+| 🔧 **Entrepreneur / Exécutant** | Spécifications complètes, prix unitaires, références de productivité pour des offres et une planification précises |
+
+Export vers **Excel, PDF, HTML, systèmes ERP, plateformes BIM** — le schéma structuré de 85 champs garantit l'intégrité des données dans tous les formats de sortie.
+
 ### 🛠️ Fonctionne Parfaitement Avec
 
 <table>

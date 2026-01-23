@@ -188,6 +188,23 @@ DDC CWICR no es solo una base de datos — es **combustible listo para usar en a
 | **55.000+ partidas de trabajo** | Cobertura completa para cualquier tarea de estimación de construcción |
 | **Metodología basada en recursos** | Datos transparentes que la IA puede explicar y desglosar |
 
+### 📋 Descripciones de Trabajo Listas para Cualquier Sistema
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/A%20ready-made%20job%20description%20generator.jpg" alt="Generador de descripciones de trabajo listas" width="1000">
+</p>
+
+DDC CWICR proporciona **descripciones de trabajo completas y estructuradas** que pueden mostrarse en cualquier sistema o formato. Cada partida contiene toda la información necesaria para diferentes participantes del proyecto:
+
+| Participante | Lo que obtiene |
+|--------------|----------------|
+| 🏢 **Cliente / Inversor** | Transparencia total de costos, desglose de recursos, justificación de precios para decisiones de inversión |
+| 📊 **Presupuestador** | Precios detallados, horas de trabajo, cantidades de materiales, costos de equipos — listo para generar presupuestos |
+| 👷 **Jefe de Obra / Capataz** | Composición del trabajo, requisitos de recursos, normas laborales para planificación y ejecución diaria |
+| 🔧 **Contratista / Ejecutor** | Especificaciones completas, precios unitarios, benchmarks de productividad para ofertas y programación precisas |
+
+Exportación a **Excel, PDF, HTML, sistemas ERP, plataformas BIM** — el esquema estructurado de 85 campos garantiza la integridad de datos en todos los formatos de salida.
+
 ### 🛠️ Funciona Perfectamente Con
 
 <table>

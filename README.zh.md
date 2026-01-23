@@ -188,6 +188,23 @@ DDC CWICR 不仅仅是一个数据库 — 它是 **AI 驱动应用的即用燃�
 | **55,000+ 工作项目** | 全面覆盖任何建筑估算任务 |
 | **基于资源的方法论** | 透明的数据，AI 可以解释和分解 |
 
+### 📋 适用于任何系统的现成工作描述
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/A%20ready-made%20job%20description%20generator.jpg" alt="现成工作描述生成器" width="1000">
+</p>
+
+DDC CWICR 提供**完整、结构化的工作描述**，可在任何系统或格式中显示。每个工作项目包含不同项目参与者所需的所有信息：
+
+| 参与者 | 获得的内容 |
+|--------|-----------|
+| 🏢 **业主 / 投资者** | 完全的成本透明度、资源分解、投资决策的价格依据 |
+| 📊 **造价工程师** | 详细定额、人工工时、材料数量、设备成本 — 可直接用于编制工程量清单 |
+| 👷 **项目经理 / 工长** | 工作组成、资源需求、劳动定额，用于日常规划和执行 |
+| 🔧 **承包商 / 施工方** | 完整规格、单价、生产率基准，用于准确报价和进度安排 |
+
+导出至 **Excel、PDF、HTML、ERP系统、BIM平台** — 结构化的85字段架构确保所有输出格式的数据完整性。
+
 ### 🛠️ 完美适配
 
 <table>

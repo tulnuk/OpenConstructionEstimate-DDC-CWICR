@@ -188,6 +188,23 @@ DDC CWICR is not just a database — it's **ready-to-use fuel for AI-powered app
 | **55,000+ work items** | Comprehensive coverage for any construction estimation task |
 | **Resource-based methodology** | Transparent data that AI can explain and break down |
 
+### 📋 Ready-Made Work Descriptions for Any System
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/A%20ready-made%20job%20description%20generator.jpg" alt="Ready-made job description generator" width="1000">
+</p>
+
+DDC CWICR provides **complete, structured work descriptions** that can be displayed in any system or format. Each work item contains all the information needed by different stakeholders:
+
+| Stakeholder | What They Get |
+|-------------|---------------|
+| 🏢 **Client / Investor** | Full cost transparency, resource breakdown, price justification for investment decisions |
+| 📊 **Cost Estimator** | Detailed rates, labor hours, material quantities, equipment costs — ready for BOQ generation |
+| 👷 **Site Manager / Foreman** | Work composition, resource requirements, labor norms for daily planning and execution |
+| 🔧 **Contractor / Executor** | Complete specifications, unit rates, productivity benchmarks for accurate bidding and scheduling |
+
+Export to **Excel, PDF, HTML, ERP systems, BIM platforms** — the structured 85-field schema ensures data integrity across all outputs.
+
 ### 🛠️ Works Perfectly With
 
 <table>

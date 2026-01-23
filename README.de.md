@@ -188,6 +188,23 @@ DDC CWICR ist nicht nur eine Datenbank — es ist **sofort einsatzbereiter Treib
 | **55.000+ Arbeitspositionen** | Umfassende Abdeckung für jede Baukalkulationsaufgabe |
 | **Ressourcenbasierte Methodik** | Transparente Daten, die KI erklären und aufschlüsseln kann |
 
+### 📋 Fertige Arbeitsbeschreibungen für jedes System
+
+<p align="center">
+  <img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/A%20ready-made%20job%20description%20generator.jpg" alt="Generator für fertige Arbeitsbeschreibungen" width="1000">
+</p>
+
+DDC CWICR bietet **vollständige, strukturierte Arbeitsbeschreibungen**, die in jedem System oder Format angezeigt werden können. Jede Arbeitsposition enthält alle Informationen, die verschiedene Projektbeteiligte benötigen:
+
+| Beteiligter | Was er bekommt |
+|-------------|----------------|
+| 🏢 **Auftraggeber / Investor** | Volle Kostentransparenz, Ressourcenaufschlüsselung, Preisbegründung für Investitionsentscheidungen |
+| 📊 **Kalkulator** | Detaillierte Preise, Arbeitsstunden, Materialmengen, Gerätekosten — fertig für die LV-Erstellung |
+| 👷 **Bauleiter / Polier** | Arbeitszusammensetzung, Ressourcenbedarf, Arbeitsnormen für tägliche Planung und Ausführung |
+| 🔧 **Auftragnehmer / Ausführender** | Vollständige Spezifikationen, Einheitspreise, Produktivitätskennzahlen für genaue Angebote und Terminplanung |
+
+Export nach **Excel, PDF, HTML, ERP-Systeme, BIM-Plattformen** — das strukturierte 85-Felder-Schema gewährleistet Datenintegrität in allen Ausgabeformaten.
+
 ### 🛠️ Funktioniert perfekt mit
 
 <table>
