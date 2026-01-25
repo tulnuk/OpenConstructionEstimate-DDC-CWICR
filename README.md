@@ -239,13 +239,13 @@ Export to **Excel, PDF, HTML, ERP systems, BIM platforms** — the structured 85
 
 ---
 
-## 🎯 DDC Skills — 167 Ready-to-Use AI Automations
+## 🎯 DDC Skills — 172 Ready-to-Use AI Automations
 
 > **New!** [DDC Skills for AI Agents in Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) — a complete automation toolkit for construction companies.
 
 <p align="center">
   <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction">
-    <img src="https://img.shields.io/badge/DDC_Skills-167_AI_Automations-blue?style=for-the-badge&logo=robot" alt="DDC Skills">
+    <img src="https://img.shields.io/badge/DDC_Skills-172_AI_Automations-blue?style=for-the-badge&logo=robot" alt="DDC Skills">
   </a>
 </p>
 
