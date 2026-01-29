@@ -221,6 +221,49 @@ DDC CWICRは単なるデータベースではありません — **AIパワー�
 
 ---
 
+## 🎯 DDC Skills — 196のすぐに使えるAI自動化
+
+> **新機能！** [建設業向けAIエージェントのDDC Skills](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) — 建設会社向けの完全な自動化ツールキット。
+
+<p align="center">
+  <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction">
+    <img src="https://img.shields.io/badge/DDC_Skills-196_AI自動化-blue?style=for-the-badge&logo=robot" alt="DDC Skills">
+  </a>
+</p>
+
+### 仕組み
+
+```
+1. Skillsリポジトリをクローン
+2. Claude Code、Cursor、またはGitHub Copilotで開く
+3. 自動化したいことを説明 — AIがステップバイステップでガイド
+```
+
+### 時間節約
+
+| プロセス | 前 | 後 | 削減率 |
+|----------|-----|------|--------|
+| 価格検索 | 15分 | 10秒 | 99% |
+| 日報 | 手動 | 自動 | 92% |
+| コスト見積もり | 数時間 | 数分 | 87% |
+| 予算追跡 | スプレッドシート | リアルタイム | 87% |
+
+### 含まれるコンテンツ
+
+| フォルダ | Skills | 説明 |
+|----------|--------|------|
+| **DDC Toolkit** | 85 | CWICRデータベース統合を含む本番ツール |
+| **DDC Book** | 50 | Data-Driven Construction方法論に基づくスキル |
+| **DDC Insights** | 5 | n8nワークフローテンプレート |
+| **DDC Curated** | 5 | 外部統合スキル |
+| **DDC Innovative** | 22 | 高度なAI/ML機能 |
+
+Skillsリポジトリは、**このCWICRデータベースとの直接統合**を提供 — セマンティック検索、自動コスト計算、日報、欠陥検出など。
+
+**→ [DDC Skillsを始める](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction)**
+
+---
+
 ### 💻 Claude Code & Google Antigravity — AIコーディングアシスタント
 
 DDC CWICRを操作する最も速い方法です。Claude CodeまたはGoogle Antigravityでリポジトリを開き、自然言語で質問するだけです。
@@ -1424,7 +1467,8 @@ AIアシスタントは以下をサポートします：
 
 <p align="left">
   <br/>
-  <b>建設におけるデータの力を解き放つ</b><br/>
+  <b>建設におけるデータの力を解き放つ</b>
+  <br/>
   <sub>統一された構造化データとプロセスのみが残る完全なデータ管理サイクルへ移行</sub>
 </p>
 
@@ -1433,6 +1477,14 @@ AIアシスタントは以下をサポートします：
     <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png.webp" alt="DataDrivenConstruction" width="180">
   </a>
 </p>
+
+---
+
+## 商標
+
+Autodesk®、Revit®、AutoCAD®、およびDWG™は、Autodesk, Inc.の登録商標または商標です。OpenAI™はOpenAI, Inc.の商標です。QdrantはQdrant Solutions GmbHの商標です。その他のすべてのブランド名、製品名、または商標は、それぞれの所有者に帰属します。
+
+このプロジェクトは、Autodesk、OpenAI、Qdrant、または上記のその他の商標所有者とは一切提携、承認、または後援されていません。
 
 <p align="left">
   <sub>© 2025 Artem Boiko · <a href="https://datadrivenconstruction.io">datadrivenconstruction.io</a></sub>
