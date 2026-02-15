@@ -1298,6 +1298,133 @@ curl -X POST "http://localhost:6333/collections/ddc_cwicr_en/snapshots/upload" \
 
 # Dashboard: http://localhost:6333/dashboard
 ```
+
+### Linux APT Packages
+
+Install Qdrant + construction cost data with a single command on any Debian/Ubuntu system. No Docker, no manual setup — just `apt install` and search.
+
+```
+sudo apt install ddc-cwicr-en
+  │
+  ├── ddc-qdrant              Qdrant v1.16.3 binary + systemd service
+  │     └── localhost:6333    vector database ready on port 6333
+  │
+  └── postinst                downloads ~1 GB snapshot from GitHub Releases
+        └── PUT /snapshots/recover → 55,719 vectors loaded
+```
+
+#### Setup APT Repository
+
+```bash
+# Add the DDC package repository
+echo "deb [trusted=yes] https://pkg.datadrivenconstruction.io stable main" \
+  | sudo tee /etc/apt/sources.list.d/ddc.list
+
+sudo apt update
+```
+
+#### Install a Language Collection
+
+```bash
+# Install English construction cost database (downloads ~1 GB of vector data)
+sudo apt install ddc-cwicr-en
+
+# Verify Qdrant is running
+systemctl status qdrant
+curl http://localhost:6333/collections
+```
+
+The `.deb` package is only ~5 KB — the heavy vector data is downloaded directly from GitHub Releases during installation and restored into Qdrant automatically.
+
+#### Available Packages
+
+| Package | Language | Region | Data Size | Collection |
+|---------|----------|--------|-----------|------------|
+| `ddc-cwicr-en` | English | Toronto | ~1.0 GB | `ddc_cwicr_en` |
+| `ddc-cwicr-de` | German | Berlin | ~1.0 GB | `ddc_cwicr_de` |
+| `ddc-cwicr-ru` | Russian | St. Petersburg | ~1.0 GB | `ddc_cwicr_ru` |
+| `ddc-cwicr-fr` | French | Paris | ~1.0 GB | `ddc_cwicr_fr` |
+| `ddc-cwicr-es` | Spanish | Barcelona | ~1.0 GB | `ddc_cwicr_es` |
+| `ddc-cwicr-ar` | Arabic | Dubai | ~1.0 GB | `ddc_cwicr_ar` |
+| `ddc-cwicr-zh` | Chinese | Shanghai | ~1.0 GB | `ddc_cwicr_zh` |
+| `ddc-cwicr-pt` | Portuguese | São Paulo | ~1.0 GB | `ddc_cwicr_pt` |
+| `ddc-cwicr-hi` | Hindi | Mumbai | ~0.9 GB | `ddc_cwicr_hi` |
+
+Install multiple languages side by side:
+
+```bash
+sudo apt install ddc-cwicr-en ddc-cwicr-de ddc-cwicr-fr
+```
+
+#### CLI Search Tool
+
+The optional `ddc-cwicr-cli` package provides `ddc-search` — a command-line interface for querying the database directly from the terminal.
+
+```bash
+sudo apt install ddc-cwicr-cli
+```
+
+**Semantic search** (requires OpenAI API key):
+
+```bash
+export OPENAI_API_KEY=sk-...
+
+ddc-search "reinforced concrete foundation 300mm"
+```
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  DDC CWICR Search Results — ddc_cwicr_en (55,719 items)        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+  #1  [0.847]  03.01.004
+      Reinforced concrete strip foundations, width 300-600mm
+      Unit: m³    Labor: $45.20    Material: $189.50    Total: $287.30
+
+  #2  [0.831]  03.01.007
+      Reinforced concrete pad foundations up to 500mm depth
+      Unit: m³    Labor: $52.10    Material: $195.80    Total: $312.60
+
+  #3  [0.814]  03.02.001
+      Concrete foundation walls, reinforced, 200-400mm thick
+      Unit: m³    Labor: $48.90    Material: $178.40    Total: $279.50
+```
+
+**Keyword search** (no API key needed):
+
+```bash
+ddc-search --keyword "concrete"
+```
+
+**Other options:**
+
+```bash
+# Search a specific language collection
+ddc-search --collection ddc_cwicr_de "Stahlbetonfundament"
+
+# List all installed collections
+ddc-search --list
+
+# JSON output for scripting and automation
+ddc-search --json "floor tiles installation"
+
+# Limit number of results
+ddc-search --limit 10 "steel beam HEB 300"
+```
+
+#### Package Architecture
+
+| Package | Type | Size | Description |
+|---------|------|------|-------------|
+| `ddc-qdrant` | Server | ~27 MB | Qdrant v1.16.3 binary, systemd service, auto-start |
+| `ddc-cwicr-{lang}` | Data | ~5 KB | Postinst downloads snapshot (~1 GB) from GitHub |
+| `ddc-cwicr-cli` | Tool | ~5 KB | Python3 CLI, no pip dependencies |
+
+- `ddc-qdrant` is installed automatically as a dependency of any `ddc-cwicr-{lang}` package
+- Removing a language package (`apt remove ddc-cwicr-en`) deletes the collection from Qdrant
+- Purging `ddc-qdrant` (`apt purge ddc-qdrant`) removes all data and the system user
+- Available for `amd64` and `arm64` architectures
+
 ---
 
 ## Quick Start
